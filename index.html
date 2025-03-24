@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>TechNest - Advanced HTML5 Elements and Forms</title>
+</head>
+
+<body>
+
+    <!-- Ordered List with Roman Numerals -->
+    <section>
+        <h2>TechNest Features</h2>
+        <ol type="I">
+            <li>Introduction to TechNest</li>
+            <li>Latest Tech Products</li>
+            <li>Secure Checkout Process</li>
+            <li>Customer Support</li>
+            <li>Form Validation</li>
+        </ol>
+    </section>
+
+    <!-- External Image from Pexels (Tech-Related) -->
+    <section>
+        <h2>Technology in Action</h2>
+        <img src="https://images.pexels.com/photos/373543/pexels-photo-373543.jpeg" 
+             alt="Tech devices on a desk" width="500">
+    </section>
+
+    <!-- Contacts Table -->
+    <section>
+        <h2>Contacts</h2>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Address</th>
+                    <th>Mobile</th>
+                    <th>Email</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Andile Dhlamini</td>
+                    <td>1805 Cassia PL St</td>
+                    <td>0763802019</td>
+                    <td>vlkz.andy@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Nobuhle Vilakazi</td>
+                    <td>1996 Ulundi St</td>
+                    <td>0768595873</td>
+                    <td>nvilakazi@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Cyril Peterson</td>
+                    <td>2033 Sakhile St</td>
+                    <td>0670818956</td>
+                    <td>cyrilp@yahoo.com</td>
+                </tr>
+                <tr>
+                    <td>Kate Hlogwane</td>
+                    <td>1780 Vosloorus St</td>
+                    <td>0822150091</td>
+                    <td>katehlogwane@yahoo.com</td>
+                </tr>
+                <tr>
+                    <td>Samke Mkhulisi</td>
+                    <td>2032 Vosloorus Ext 6</td>
+                    <td>0825331153</td>
+                    <td>mkhusamke@gmail.com</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <!-- Registration Form -->
+    <section>
+        <h2>Registration Form</h2>
+        <form action="#" method="post">
+
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your full name" required><br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="Enter a secure password" required><br><br>
+
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob" required><br><br>
+
+            <label for="country">Select your country:</label>
+<select id="country" name="country" required>
+    <option value="southafrica">South Africa</option>
+    <option value="nigeria">Nigeria</option>
+    <option value="kenya">Kenya</option>
+    <option value="ghana">Ghana</option>
+    <option value="uganda">Uganda</option>
+    <option value="zimbabwe">Zimbabwe</option>
+    <option value="tanzania">Tanzania</option>
+    <option value="egypt">Egypt</option>
+</select><br><br>
+
+
+            <label>Gender:</label>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label><br><br>
+
+            <label for="terms">Accept Terms and Conditions:</label>
+            <input type="checkbox" id="terms" name="terms" required>
+            <label for="terms">I agree to the terms and conditions</label><br><br>
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+   <!-- Audio Element -->
+<section>
+    <h2>Tech Podcast</h2>
+    <audio controls>
+        <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mp3">
+        Your browser does not support the audio element.
+    </audio>
+</section>
+
+<!-- Video Element -->
+<section>
+    <h2>TechNest Promo Video</h2>
+    <iframe width="500" height="281" 
+            src="https://www.youtube.com/embed/tbKskPEhmpM" 
+            frameborder="0" 
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+            allowfullscreen>
+    </iframe>
+</section>
+
+
+</body>
+
+</html>
+
