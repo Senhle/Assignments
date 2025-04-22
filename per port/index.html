@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <script 
+    type="module" 
+    src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js">
+</script>
+<script 
+nomodule
+src="https://unpkg.com/@google/model-viewer/dist/model-viewer.legacy.js">
+</script>
+</head>
+<body>
+    <!-- Header-->
+     <header class="header">
+        <img src="./assets/logo//logo.png" alt="" class="logo">
+        <ul class="main-nav-list"
+        li*3>main-nav-list</ul>
+          <li><a href="£" classs="main-nav-list">Home</a></li>
+          <li><a href="£" classs="main-nav-list">About Me</a></li>
+          <li><a href="£" classs="main-nav-list">Contact</a></li>
+        <ul>    
+     </header>
+     section class="hero">
+     <img src="./assets/a5a1b66f-6082-4de9-bf66-9501ed2a191d.png" alt="Backgroung Image" class="bg">
+     <div>class= "hero-title"Hi, I'm <span class="Andile">Dand</
+        span>!</div><h1>
+            <p class="hero-subheading">Power learn Project student!</p>
+
+     </div>
+     <div class="hero-model">
+        <model-viewer
+        src="./models/desk.glb"
+        disable-pan
+        disable-zoom
+        interaction-prompt"none"
+        min-camera.orbit="auto 55deg auto"
+        max-camera.orbit="auto 92deg auto"
+        field-of-view="35.3deg"
+    </model-viewer>
+        
+     </div>
+     
+</body>
+</html>

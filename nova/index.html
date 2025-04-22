@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Tech Languages</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin-top: 50px;
+      background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+      color: white;
+    }
+
+    h2 {
+      font-size: 2em;
+      margin-bottom: 30px;
+    }
+
+    .container {
+      width: 90%;
+      margin: auto;
+      overflow: hidden;
+      padding: 30px;
+      border-radius: 20px;
+      background-color: rgba(255, 255, 255, 0.05);
+    }
+
+    .slider {
+      overflow: hidden;
+      width: 100%;
+      margin-bottom: 20px;
+    }
+
+    .row {
+      display: flex;
+      gap: 40px;
+      justify-content: center;
+      animation: slideSide 8s infinite ease-in-out alternate;
+    }
+
+    .language {
+      position: relative;
+      font-size: 20px;
+      font-weight: bold;
+      background-color: rgba(255, 255, 255, 0.1);
+      padding: 10px 20px;
+      border-radius: 12px;
+      transition: transform 0.3s ease;
+    }
+
+    .language:hover {
+      transform: scale(1.1);
+      box-shadow: 0 0 15px rgba(255, 255, 255, 0.3);
+    }
+
+    .hashtag {
+      position: absolute;
+      top: -20px;
+      left: 0;
+      font-size: 18px;
+      color: #4dabf7;
+    }
+
+    .language-name {
+      display: block;
+      padding-top: 20px;
+    }
+
+    @keyframes slideSide {
+      0% {
+        transform: translateX(0);
+      }
+      100% {
+        transform: translateX(-30px);
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <h2>Tech Languages</h2>
+  <div class="container">
+    <div class="slider">
+      <div class="row">
+        <div class="language"><span class="hashtag">#</span><span class="language-name">HTML</span></div>
+        <div class="language"><span class="hashtag">#</span><span class="language-name">CSS</span></div>
+        <div class="language"><span class="hashtag">#</span><span class="language-name">JavaScript</span></div>
+        <div class="language"><span class="hashtag">#</span><span class="language-name">Python</span></div>
+      </div>
+    </div>
+    <div class="slider">
+      <div class="row">
+        <div class="language"><span class="hashtag">#</span><span class="language-name">C</span></div>
+        <div class="language"><span class="hashtag">#</span><span class="language-name">C++</span></div>
+        <div class="language"><span class="hashtag">#</span><span class="language-name">Java</span></div>
+        <div class="language"><span class="hashtag">#</span><span class="language-name">SQL</span></div>
+      </div>
+    </div>
+    <div class="slider">
+      <div class="row">
+        <div class="language"><span class="hashtag">#</span><span class="language-name">Rust</span></div>
+        <div class="language"><span class="hashtag">#</span><span class="language-name">Swift</span></div>
+        <div class="language"><span class="hashtag">#</span><span class="language-name">Kotlin</span></div>
+        <div class="language"><span class="hashtag">#</span><span class="language-name">Ruby</span></div>
+      </div>
+    </div>
+    <div class="slider">
+      <div class="row">
+        <div class="language"><span class="hashtag">#</span><span class="language-name">Go</span></div>
+        <div class="language"><span class="hashtag">#</span><span class="language-name">TypeScript</span></div>
+        <div class="language"><span class="hashtag">#</span><span class="language-name">Bash</span></div>
+        <div class="language"><span class="hashtag">#</span><span class="language-name">Dart</span></div>
+      </div>
+    </div>
+    <div class="slider">
+      <div class="row">
+        <div class="language"><span class="hashtag">#</span><span class="language-name">R</span></div>
+        <div class="language"><span class="hashtag">#</span><span class="language-name">Scala</span></div>
+        <div class="language"><span class="hashtag">#</span><span class="language-name">MATLAB</span></div>
+        <div class="language"><span class="hashtag">#</span><span class="language-name">Julia</span></div>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>

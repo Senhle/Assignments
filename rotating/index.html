@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D Animation Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+</head>
+<body>
+
+    <header>
+        <h1>3D Animation on Scroll</h1>
+    </header>
+
+    <section class="scroll-section">
+        <h2>Scroll Down to See Magic</h2>
+    </section>
+
+    <section class="model-section">
+        <model-viewer 
+            id="animatedModel"
+            src="https://sketchfab.com/3d-models/stylized-flying-bee-bird-rigged-dc6e35992a79471d890fa9bf558e3b25" 
+            alt="Flying Bee"
+            camera-controls 
+            auto-rotate>
+        </model-viewer>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
